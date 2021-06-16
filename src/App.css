@@ -1,0 +1,42 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(106, 245, 152);
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:15% ;
+    margin-left: 30%;
+    background-color:rgb(3, 117, 151);
+    border: 2px solid #333;
+    border-radius:10%;
+    width: 500px;
+    height: 300px;
+}
+.Cart{
+    display: flex;
+    flex-direction: row;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+}
+.description {
+    font-size: 30px;
+    margin-top: 6%;
+    display:flex;
+}
+.description label{
+    margin-top: 2%;
+    color:#efefee;
+    
+}
+.description img{
+    max-width: 170px;
+}
